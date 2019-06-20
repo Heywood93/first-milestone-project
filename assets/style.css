@@ -11,6 +11,10 @@ nav {
     color: white;
     background-color: black;
 }
+.Nav {
+    color: #d1d1d1;
+    background-color: #0f0f0f;
+}
 .promo:hover {
     color: inherit;
     background-color: #ffc107;
@@ -84,13 +88,3 @@ blockquote {
     background-color: white !important;
     opacity: 0.8;
 }
-/*@media (max-width:470) {
-    .logo {
-        display: none !important;
-    }
-}
-@media (min-width:471) {
-    .logo2 {
-        display: none !important;
-    }
-}*/
