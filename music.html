@@ -47,7 +47,13 @@
                 </div>
             </nav>
             <div class="row justify-content-center video">
-                <video width=50% height=90% controls autoplay>
+                <video controls autoplay class="d-none d-lg-block" width=50% height=90%>
+                <source src="TheMonkees.mp4" type="video.mp4">
+                </video>
+                <video controls autoplay class="d-none d-md-block d-lg-none" width=75% height=90%>
+                <source src="TheMonkees.mp4" type="video.mp4">
+                </video>
+                <video controls autoplay class="d-md-none" width=100% height=100%>
                 <source src="TheMonkees.mp4" type="video.mp4">
                 </video>
             </div>

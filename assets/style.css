@@ -11,10 +11,6 @@ nav {
     color: white;
     background-color: black;
 }
-.social {
-    color: #d1d1d1;
-    background-color: #0f0f0f;
-}
 .NavColl {
     color: #d1d1d1;
     background-color: #0f0f0f;
@@ -77,6 +73,7 @@ footer a {
 }
 blockquote {
     margin-left: 3px;
+    margin-top: 3px;
 }
 .page {
     font-weight: bold;
