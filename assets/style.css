@@ -11,7 +11,11 @@ nav {
     color: white;
     background-color: black;
 }
-.Nav {
+.social {
+    color: #d1d1d1;
+    background-color: #0f0f0f;
+}
+.NavColl {
     color: #d1d1d1;
     background-color: #0f0f0f;
 }
