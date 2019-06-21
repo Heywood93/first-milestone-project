@@ -89,3 +89,6 @@ blockquote {
     background-color: white !important;
     opacity: 0.8;
 }
+.social {
+    text-decoration: none;
+}
