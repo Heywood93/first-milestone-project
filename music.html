@@ -21,16 +21,30 @@
                     <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="modal" data-target="#NavModal">
+            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="collapse" data-target="#NavCollapse">
                 <a class="fas fa-bars"></a>
             </button>
+        </div>
+        <div class="collapse" id="NavCollapse">
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="index.html">Home</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="music.html">Music</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="events.html">Events</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="tour.html">Tour</a>
+            </div>
         </div>
     </header>
 
     <callout class="row container-fluid no-gutters justify-content-center">
         <div class="col-12">
             <nav class="navbar row navbar-light">
-                <div class="col-md col-sm-12">
+                <div class="col-md d-none d-md-block">
                     <img src="assets/images/cover.jpg"></img>
                 </div>
                 <div class="col-md d-none d-md-block">
@@ -46,22 +60,26 @@
                     <a class="btn btn-lg text-uppercase" href="tour.html">Tour</a>
                 </div>
             </nav>
-            <div class="row justify-content-center video">
-                <video controls autoplay class="d-none d-lg-block" width=50% height=90%>
-                <source src="TheMonkees.mp4" type="video.mp4">
+            <div class="navRep row d-md-none justify-content-center">
+                <a href="index.html"><img src="assets/images/cover.jpg"></img></a>
+            </div>
+            
+            <div class="row justify-content-center">
+                <video controls autoplay class="d-none d-lg-block vidLg" width=45% height=80%>
+                    <source src="TheMonkees.mp4" type="video.mp4">
                 </video>
-                <video controls autoplay class="d-none d-md-block d-lg-none" width=75% height=90%>
-                <source src="TheMonkees.mp4" type="video.mp4">
+                <video controls autoplay class="d-none d-md-block d-lg-none" width=70% height=85%>
+                    <source src="TheMonkees.mp4" type="video.mp4">
                 </video>
-                <video controls autoplay class="d-md-none" width=100% height=100%>
-                <source src="TheMonkees.mp4" type="video.mp4">
+                <video controls autoplay class="d-md-none vidSm" width=95% height=90%>
+                    <source src="TheMonkees.mp4" type="video.mp4">
                 </video>
             </div>
         </div>
     </callout>
 
     <main class="container-fluid">
-        <div class="row music">
+        <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12 text-center songs">
                 <h2>Songs</h2>
                 Clarksville</br>
@@ -73,9 +91,9 @@
                 Stepping Stone</br>
                 <audio src="assets/audio/SteppingStone.mp3" controls></audio></br>
             </div>
-            <div class="col-lg-8 col-md-7 text-center d-md-block d-none">
+            <div class="col-lg-8 col-md-7 text-center d-md-block d-none albums">
                 <h1>Albums</h1>
-                <div class="row align-items-start albums">
+                <div class="row align-items-start">
                     <div class="col">
                         <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width= "100%"></a>
                     </div>
@@ -89,16 +107,16 @@
             </div>
         </div>
     </main>
-    <div class="music d-md-none text-center">
+    <div class="albums d-md-none text-center">
         <h2>Albums</h2>
-        <div class="row">
-            <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width="400px"></a>
+        <div class="row justify-content-center">
+            <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width="300px"></a>
         </div>
-        <div class="row">
-            <a target="_blank" href="https://www.amazon.co.uk/Monkees-More-Greatest-Hits/dp/B01KAW1R0Y/ref=sr_1_3?ie=UTF8&qid=1547215902&sr=8-3&keywords=monkees+more+greatest+hits"><img src="assets/images/mgh.jpg" alt="More Greatest Hits Of The Monkees" width="400px"></a>
+        <div class="row justify-content-center">
+            <a target="_blank" href="https://www.amazon.co.uk/Monkees-More-Greatest-Hits/dp/B01KAW1R0Y/ref=sr_1_3?ie=UTF8&qid=1547215902&sr=8-3&keywords=monkees+more+greatest+hits"><img src="assets/images/mgh.jpg" alt="More Greatest Hits Of The Monkees" width="300px"></a>
         </div>
-        <div class="row">
-            <a target="_blank" href="https://www.discogs.com/The-Monkees-The-Very-Best-Of-The-Monkees/release/9269002"><img src="assets/images/tvb.jpg" alt="The Very Best Of The Monkees" width="400px"></a>
+        <div class="row justify-content-center">
+            <a target="_blank" href="https://www.discogs.com/The-Monkees-The-Very-Best-Of-The-Monkees/release/9269002"><img src="assets/images/tvb.jpg" alt="The Very Best Of The Monkees" width="300px"></a>
         </div>
     </div>
 

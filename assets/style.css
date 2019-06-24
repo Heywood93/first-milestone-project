@@ -7,9 +7,13 @@ nav {
     background-color: white;
     opacity: 0.8;
 }
+.navRep {
+    background-color: white;
+    opacity: 0.8;
+}
 .btn:hover {
     color: white;
-    background-color: black;
+    background-color: #2e5c59;
 }
 .NavColl {
     color: #d1d1d1;
@@ -31,13 +35,16 @@ callout {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
 }
 main {
     color: #d1d1d1;
     background-color: black;
 }
-.music {
+.video {
+    margin: auto;
+}
+.albums {
     color: #d1d1d1;
     background-color: #0f0f0f;
 }
@@ -56,11 +63,25 @@ a:hover {
     background-color: #0f0f0f;
 }
 .jumbotron {
+    margin-top: 20px;
     text-align: center;
-    color: black;
+    color: white;
+    background-color: #2e5c59;
+    opacity: 0.85;
 }
 .new {
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+.center {
     text-align: center;
+}
+.vidLg {
+    margin-top: auto;
+}
+.vidSm {
+    margin-top: 50px;
 }
 .songs {
     background-color: black;
@@ -79,7 +100,7 @@ blockquote {
     font-weight: bold;
 }
 .page:hover {
-    color: black;
+    color: #49938e;
     background-color: white;
 }
 .email {

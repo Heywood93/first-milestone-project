@@ -21,16 +21,30 @@
                     <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="modal" data-target="#NavModal">
+            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="collapse" data-target="#NavCollapse">
                 <a class="fas fa-bars"></a>
             </button>
+        </div>
+        <div class="collapse" id="NavCollapse">
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="index.html">Home</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="music.html">Music</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="events.html">Events</a>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-lg text-uppercase" href="tour.html">Tour</a>
+            </div>
         </div>
     </header>
 
     <callout class="row container-fluid no-gutters justify-content-center">
         <div class="col-12">
             <nav class="navbar row navbar-light">
-                <div class="col-md col-sm-12">
+                <div class="col-md d-none d-md-block">
                     <img src="assets/images/cover.jpg"></img>
                 </div>
                 <div class="col-md d-none d-md-block">
@@ -46,13 +60,16 @@
                     <a class="btn btn-lg text-uppercase" href="tour.html">Tour</a>
                 </div>
             </nav>
+            <div class="navRep row d-md-none justify-content-center">
+                <a href="index.html"><img src="assets/images/cover.jpg"></img></a>
+            </div>
         </div>
         <div class="form">
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#FormModal">
               Book Event
             </button>
             <div class="modal fade" id="FormModal" tabindex="-1" role="dialog" aria-labelledby="FormModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
+                <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="FormModalLabel">Event Details</h5>
