@@ -14,16 +14,16 @@
 
     <header>
         <div class="row">
-            <div class="col-md-4 col-sm-9">
+            <div class="col-md-4 d-none d-md-block">
                 <div class="row">
-                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/"></a>
-                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees"></a>
-                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"></a>
+                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
                 </div>
             </div>
-            <div class="d-md-none col-sm-3">
-                <a class="col btn btn-lg fas fa-bars"></a>
-            </div>
+            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="modal" data-target="#NavModal">
+                <a class="fas fa-bars"></a>
+            </button>
         </div>
     </header>
 
@@ -88,25 +88,35 @@
                 </div>
             </div>
         </div>
-        <div class="music d-md-none text-center">
-            <h2>Albums</h2>
-            <div class="row">
-                <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width="200px"></a>
-            </div>
-            <div class="row">
-                <a target="_blank" href="https://www.amazon.co.uk/Monkees-More-Greatest-Hits/dp/B01KAW1R0Y/ref=sr_1_3?ie=UTF8&qid=1547215902&sr=8-3&keywords=monkees+more+greatest+hits"><img src="assets/images/mgh.jpg" alt="More Greatest Hits Of The Monkees" width="200px"></a>
-            </div>
-            <div class="row">
-                <img src="assets/images/tvb.jpg" alt="The Very Best Of The Monkees" width="200px" target="_blank" href="https://www.discogs.com/The-Monkees-The-Very-Best-Of-The-Monkees/release/9269002">
-            </div>
-        </div>
     </main>
+    <div class="music d-md-none text-center">
+        <h2>Albums</h2>
+        <div class="row">
+            <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width="400px"></a>
+        </div>
+        <div class="row">
+            <a target="_blank" href="https://www.amazon.co.uk/Monkees-More-Greatest-Hits/dp/B01KAW1R0Y/ref=sr_1_3?ie=UTF8&qid=1547215902&sr=8-3&keywords=monkees+more+greatest+hits"><img src="assets/images/mgh.jpg" alt="More Greatest Hits Of The Monkees" width="400px"></a>
+        </div>
+        <div class="row">
+            <a target="_blank" href="https://www.discogs.com/The-Monkees-The-Very-Best-Of-The-Monkees/release/9269002"><img src="assets/images/tvb.jpg" alt="The Very Best Of The Monkees" width="400px"></a>
+        </div>
+    </div>
 
     <footer>
-        <div class="row container-fluid justify-content-center">
+        <div class="row container-fluid justify-content-center d-none d-md-block">
             <div>Definitely still got it, exceeded our expectations!" - Adam Jackson on <cite title="Instgram">Instgram</cite> <a href="events.html"><small>see more reviews</small></a></div>
         </div>
+        <div class="row d-md-none">
+            <a class="col social btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 
 </body>
 

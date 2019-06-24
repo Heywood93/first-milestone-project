@@ -14,16 +14,16 @@
 
     <header>
         <div class="row">
-            <div class="col-md-4 col-sm-9">
+            <div class="col-md-4 d-none d-md-block">
                 <div class="row">
-                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/"></a>
-                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees"></a>
-                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"></a>
+                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
                 </div>
             </div>
-            <div class="d-md-none col-sm-3">
-                <a class="col btn btn-lg fas fa-bars"></a>
-            </div>
+            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="modal" data-target="#NavModal">
+                <a class="fas fa-bars"></a>
+            </button>
         </div>
     </header>
 
@@ -48,7 +48,7 @@
             </nav>
         </div>
         <div class="form">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FormModal">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#FormModal">
               Book Event
             </button>
             <div class="modal fade" id="FormModal" tabindex="-1" role="dialog" aria-labelledby="FormModalLabel" aria-hidden="true">
@@ -108,7 +108,7 @@
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-primary">Request Booking</button>
+                            <button type="submit" class="btn btn-info">Request Booking</button>
                         </div>
                     </div>
                 </div>
@@ -187,6 +187,11 @@
     </main>
 
     <footer>
+        <div class="row d-md-none">
+            <a class="col social btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

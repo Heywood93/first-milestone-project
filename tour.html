@@ -14,20 +14,20 @@
 
     <header>
         <div class="row">
-            <div class="col-md-4 col-sm-9">
+            <div class="col-md-4 d-none d-md-block">
                 <div class="row">
-                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/"></a>
-                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees"></a>
-                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"></a>
+                    <a class="col btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+                    <a class="col btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
                 </div>
             </div>
-            <div class="d-md-none col-sm-3">
-                <a class="col btn btn-lg fas fa-bars"></a>
-            </div>
+            <button type="button" class="btn btn-lg NavColl d-md-none col-sm-3" data-toggle="modal" data-target="#NavModal">
+                <a class="fas fa-bars"></a>
+            </button>
         </div>
     </header>
 
-<callout class="row container-fluid no-gutters justify-content-center">
+    <callout class="row container-fluid no-gutters justify-content-center">
         <div class="col-12">
             <nav class="navbar row navbar-light">
                 <div class="col-md col-sm-12">
@@ -48,10 +48,10 @@
             </nav>
         </div>
         <div class="email">
-            <div class="row">
-                <div class="d-inline font-weight-bold sign-up align-text-middle">Never miss out, sign up to The Monkees newsletter</div>
+            <div class="row d-inline font-weight-bold sign-up align-text-middle">Never miss out, sign up to The Monkees newsletter</div>
+            <div class="row container-fluid mx-auto">
                 <div class="d-inline"><input type="text" class="form-control" id="NewsletterSignUp" placeholder="Enter Email"></div>
-                <div class="d-inline"><button type="submit" class="btn">Sign Up</button></div>
+                <div class="d-inline"><button type="submit" class="btn btn-info">Sign Up</button></div>
             </div>
         </div>
     </callout>
@@ -149,13 +149,63 @@
                 July 23: Marcus Amphitheater, Milwaukee, Wisconsin</br>
             </div>
         </div>
+        <div class="text-center set d-sm-none">
+            <h2>Set List</h2>
+            I’m a Believer</br>
+            Mary, Mary</br>
+            The Girl I Knew Somewhere</br>
+            She Hangs Out</br>
+            Randy Scouse Git</br>
+            Your Auntie Grizelda</br>
+            It’s Nice to Be With You</br>
+            I Don’t Think You Know Me</br>
+            (Look Out) Here Comes Tomorrow</br>
+            Words</br>
+            Cuddly Toy</br>
+            Papa Gene’s Blues</br>
+            Listen to the Band</br>
+            That Was Then, This is Now</br>
+            All of Your Toys</br>
+            Hard to Believe</br>
+            What Am I Doing Hangin’ ‘Round?</br>
+            Sometime in the Morning</br>
+            Valleri</br>
+            No Time</br>
+            Circle Sky</br>
+            Can You Dig It</br>
+            As We Go Along</br>
+            Long Title: Do I Have to Do This All Over Again</br>
+            Porpoise Song</br>
+            Daddy’s Song</br>
+            For Pete’s Sake</br>
+            When Love Comes Knockin' (At Your Door)</br>
+            She</br>
+            A Little Bit Me, A Little Bit You</br>
+            Shades of Gray</br>
+            Last Train to Clarksville</br>
+            Goin’ Down</br>
+            I Wanna Be Free</br>
+            Saturday’s Child</br>
+            Someday Man</br>
+            (I’m Not Your) Steppin’ Stone</br>
+            Daydream Believer</br>
+        </div>
     </main>
 
     <footer>
-        <div class="row container-fluid justify-content-center">
+        <div class="row container-fluid justify-content-center d-none d-md-block">
             <div>Definitely still got it, exceeded our expectations!" - Adam Jackson on <cite title="Instgram">Instgram</cite> <a href="events.html"><small>see more reviews</small></a></div>
         </div>
+        <div class="row d-md-none">
+            <a class="col social btn btn-lg fab fa-facebook" href="https://www.facebook.com/TheMonkees/" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-twitter" href="https://twitter.com/TheMonkees" target="_blank"></a>
+            <a class="col social btn btn-lg fab fa-youtube" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"></a>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 
