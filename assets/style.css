@@ -1,6 +1,6 @@
 header {
-    color: #d1d1d1;
-    background-color: #0f0f0f;
+    color: #bcadad;
+    background-color: #0f0000;
 }
 nav {
     margin-top: 50px;
@@ -12,12 +12,16 @@ nav {
     opacity: 0.8;
 }
 .btn:hover {
+    color: #bcadad;
+    background-color: #4c0000;
+}
+.btn-info:hover {
     color: white;
-    background-color: #2e5c59;
+    background-color: #38777c;
 }
 .NavColl {
-    color: #d1d1d1;
-    background-color: #0f0f0f;
+    color: #bcadad;
+    background-color: #230000;
 }
 .promo:hover {
     color: inherit;
@@ -30,7 +34,7 @@ nav {
     border: 0;
 }
 callout {
-    background-color: #0f0f0f;
+    background-color: #230000;
     background: url(images/monkees.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -38,19 +42,19 @@ callout {
     height: 85vh;
 }
 main {
-    color: #d1d1d1;
-    background-color: black;
+    color: #bcadad;
+    background-color: #0f0000;
 }
 .video {
     margin: auto;
 }
 .albums {
-    color: #d1d1d1;
-    background-color: #0f0f0f;
+    color: #bcadad;
+    background-color: #230000;
 }
 footer {
-    color: #d1d1d1;
-    background-color: black;
+    color: #bcadad;
+    background-color: #0f0000;
 }
 a {
     color: inherit;
@@ -60,19 +64,20 @@ a:hover {
     text-decoration: none;
 }
 .intro {
-    background-color: #0f0f0f;
+    background-color: #230000;
 }
 .jumbotron {
     margin-top: 20px;
     text-align: center;
-    color: white;
-    background-color: #2e5c59;
+    color: #bcadad;
+    background-color: #4c0000;
     opacity: 0.85;
 }
 .new {
-    color: white;
+    color: #bcadad;
     opacity: 0.8;
-    background-color: black;
+    background-color: #0f0000;
+    margin-top: 50px;
 }
 .center {
     text-align: center;
@@ -84,10 +89,10 @@ a:hover {
     margin-top: 50px;
 }
 .songs {
-    background-color: black;
+    background-color: #0f0000;
 }
 .dates {
-    background-color: #0f0f0f;
+    background-color: #230000;
 }
 footer a {
     text-decoration: underline;
@@ -100,11 +105,11 @@ blockquote {
     font-weight: bold;
 }
 .page:hover {
-    color: #49938e;
-    background-color: white;
+    color: #4c0000;
+    background-color: #bcadad;
 }
 .email {
-    color: black;
+    color: #0f0000;
 }
 .sign-up {
     background-color: white !important;
@@ -113,3 +118,12 @@ blockquote {
 .social {
     text-decoration: none !important;
 }
+/*.fa-facebook {
+    color: #4267b2;
+}
+.fa-twitter {
+    color: #38A1F3;
+}
+.fa-youtube {
+    color: #ED3833;
+}*/
