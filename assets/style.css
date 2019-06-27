@@ -1,3 +1,14 @@
+.font1 {
+    font-family: 'Alegreya SC' , serif;
+    text-shadow: #0f0000 -3px 3px;
+}
+.font2 {
+    font-family: 'Alegreya' , serif;
+    text-shadow: #0f0000 -3px 3px;
+}
+.font3 {
+    font-family: serif;
+}
 header {
     color: #bcadad;
     background-color: #0f0000;
@@ -21,7 +32,7 @@ nav {
 }
 .NavColl {
     color: #bcadad;
-    background-color: #230000;
+    background-color: #0f0000;
 }
 .promo:hover {
     color: inherit;
@@ -118,12 +129,3 @@ blockquote {
 .social {
     text-decoration: none !important;
 }
-/*.fa-facebook {
-    color: #4267b2;
-}
-.fa-twitter {
-    color: #38A1F3;
-}
-.fa-youtube {
-    color: #ED3833;
-}*/
