@@ -13,7 +13,7 @@
 
 <body>
 
-    <header>
+    <header class="container-fluid">
         <div class="row">
             <div class="col-md-4 d-none d-md-block">
                 <div class="row">
@@ -65,16 +65,8 @@
                 <a href="index.html"><img src="assets/images/cover.jpg"></img></a>
             </div>
             
-            <div class="row justify-content-center">
-                <video controls autoplay class="d-none d-lg-block vidLg" width=45% height=80%>
-                    <source src="TheMonkees.mp4" type="video.mp4">
-                </video>
-                <video controls autoplay class="d-none d-md-block d-lg-none" width=70% height=85%>
-                    <source src="TheMonkees.mp4" type="video.mp4">
-                </video>
-                <video controls autoplay class="d-md-none vidSm" width=95% height=90%>
-                    <source src="TheMonkees.mp4" type="video.mp4">
-                </video>
+            <div class="row justify-content-center video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h3WpIDP2XHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </callout>
@@ -110,19 +102,19 @@
     </main>
     <div class="albums d-md-none text-center">
         <h2 class="font1">Albums</h2>
-        <div class="row justify-content-center">
+        <div class="row album justify-content-center">
             <a target="_blank" href="https://www.amazon.co.uk/Monkees-Greatest-Hits/dp/B0000253F4/ref=sr_1_1?ie=UTF8&qid=1547216050&sr=8-1&keywords=monkees+greatest"><img src="assets/images/tmgh.jpg" alt="The Monkees Greatest Hits" width="300px"></a>
         </div>
-        <div class="row justify-content-center">
+        <div class="row album justify-content-center">
             <a target="_blank" href="https://www.amazon.co.uk/Monkees-More-Greatest-Hits/dp/B01KAW1R0Y/ref=sr_1_3?ie=UTF8&qid=1547215902&sr=8-3&keywords=monkees+more+greatest+hits"><img src="assets/images/mgh.jpg" alt="More Greatest Hits Of The Monkees" width="300px"></a>
         </div>
-        <div class="row justify-content-center">
+        <div class="row album justify-content-center">
             <a target="_blank" href="https://www.discogs.com/The-Monkees-The-Very-Best-Of-The-Monkees/release/9269002"><img src="assets/images/tvb.jpg" alt="The Very Best Of The Monkees" width="300px"></a>
         </div>
     </div>
 
-    <footer>
-        <div class="row container-fluid justify-content-center d-none d-md-block">
+    <footer class="container-fluid">
+        <div class="row justify-content-center d-none d-md-block">
             <div>Definitely still got it, exceeded our expectations!" - Adam Jackson on <cite title="Instgram">Instgram</cite> <a href="events.html"><small>see more reviews</small></a></div>
         </div>
         <div class="row d-md-none">

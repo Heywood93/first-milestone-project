@@ -6,9 +6,6 @@
     font-family: 'Alegreya' , serif;
     text-shadow: #0f0000 -3px 3px;
 }
-.font3 {
-    font-family: serif;
-}
 header {
     color: #bcadad;
     background-color: #0f0000;
@@ -34,6 +31,9 @@ nav {
     color: #bcadad;
     background-color: #0f0000;
 }
+.promo {
+    background-color: #ffc107;
+}
 .promo:hover {
     color: inherit;
     background-color: #ffc107;
@@ -56,12 +56,12 @@ main {
     color: #bcadad;
     background-color: #0f0000;
 }
-.video {
-    margin: auto;
-}
 .albums {
     color: #bcadad;
     background-color: #230000;
+}
+.album {
+    margin-top: 10px;
 }
 footer {
     color: #bcadad;
@@ -93,11 +93,8 @@ a:hover {
 .center {
     text-align: center;
 }
-.vidLg {
-    margin-top: auto;
-}
-.vidSm {
-    margin-top: 50px;
+.video {
+    margin-top: 10px;
 }
 .songs {
     background-color: #0f0000;
