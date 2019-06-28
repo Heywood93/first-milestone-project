@@ -105,10 +105,6 @@ a:hover {
 footer a {
     text-decoration: underline;
 }
-blockquote {
-    margin-left: 3px;
-    margin-top: 3px;
-}
 .page {
     font-weight: bold;
 }
@@ -120,8 +116,13 @@ blockquote {
     color: #0f0000;
 }
 .sign-up {
-    background-color: white !important;
+    background-color: white;
     opacity: 0.8;
+    text-align: center;
+}
+.review {
+    margin-top: 3px;
+    margin-left: 3px;
 }
 .social {
     text-decoration: none !important;

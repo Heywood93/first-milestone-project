@@ -80,7 +80,7 @@
                         <div class="modal-body">
                             <form>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm">
                                         <div class="form-group">
                                             <label for="InputFirstName">First Name</label>
                                             <input type="text" class="form-control" id="InputFistName" placeholder="First name">
@@ -99,7 +99,7 @@
                                             <small id="emailHelp" class="form-text text-muted">This will only be used to confirm event details, we will never share your email with anyone else.</small>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm">
                                         <div class="form-group">
                                             <label for="InputDate">Date of Event</label>
                                             <input type="date" class="form-control" id="InputDate">
@@ -134,70 +134,32 @@
     </callout>
 
     <main class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col">
-                <div class="media">
-                    <div class="media-left">
-                        <img src="assets/images/mary.jpg" class="media-object rounded-circle" height=100 width=100>
-                    </div>
-                    <div class="media-body" </div>
-                        <blockquote class="review">
-                            <p>"Booked as a suprise for my dad's 60th, incredible 10/10"</p>
-                            <reviewFooter>Mary-Jane Smith on <cite title="Twitter">Twitter</cite></reviewFooter>
-                        </blockquote>
+                <div class="row review align-items-center">
+                    <img src="assets/images/mary.jpg" class="rounded-circle" height=100 width=100>
+                    <div class="col">
+                        <p>"Booked as a suprise for my dad's 60th, incredible 10/10"
+                            <br/><small>Mary-Jane Smith on <a class="font-italic" href="https://twitter.com/" target="_blank">Twitter</a></small></p>
                     </div>
                 </div>
             </div>
-            <div class="col d-none d-sm-block">
-                <div class="media">
-                    <div class="media-left">
-                        <img src="assets/images/jess.jpg" class="media-object rounded-circle" height=100 width=100>
-                    </div>
-                    <div class="media-body" </div>
-                        <blockquote class="review">
-                            <p>"The Monkees played at our wedding, 100% reccomend"</p>
-                            <reviewFooter>Jessica Daniels on <cite title="Twitter">Twitter</cite></reviewFooter>
-                        </blockquote>
+            <div class="col-sm">
+                <div class="row review align-items-center">
+                    <img src="assets/images/jess.jpg" class="rounded-circle" height=100 width=100>
+                    <div class="col">
+                        <p>"The Monkees played at our wedding, 100% reccomend"
+                            <br/><small>Jessica Daniels on <a class="font-italic" href="https://twitter.com/" target="_blank">Twitter</a></small></p>
                     </div>
                 </div>
             </div>
-            <div class="col d-none d-md-block">
-                <div class="media">
-                    <div class="media-left">
-                        <img src="assets/images/adam.jpg" class="media-object rounded-circle" height=100 width=100>
+            <div class="col-md d-sm-none d-md-block">
+                <div class="row review align-items-center">
+                    <img src="assets/images/adam.jpg" class="rounded-circle" height=100 width=100>
+                    <div class="col">
+                        <p>"Definitely still got it, exceeded our expectations!"
+                            <br/><small>Adam Jackson on <a class="font-italic" href="https://www.instagram.com/" target="_blank">Instgram</a></small></p>
                     </div>
-                    <div class="media-body" </div>
-                        <blockquote class="review">
-                            <p>"Definitely still got it, exceeded our expectations!"</p>
-                            <reviewFooter>Adam Jackson on <cite title="Instgram">Instgram</cite></reviewFooter>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d-sm-none">
-            <div class="media">
-                <div class="media-left">
-                    <img src="assets/images/jess.jpg" class="media-object rounded-circle" height=100 width=100>
-                </div>
-                <div class="media-body" </div>
-                    <blockquote class="review">
-                        <p>"The Monkees played at our wedding, 100% reccomend"</p>
-                        <reviewFooter>Jessica Daniels on <cite title="Twitter">Twitter</cite></reviewFooter>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-        <div class="d-sm-none">
-            <div class="media">
-                <div class="media-left">
-                    <img src="assets/images/adam.jpg" class="media-object rounded-circle" height=100 width=100>
-                </div>
-                <div class="media-body" </div>
-                    <blockquote class="review">
-                        <p>"Definitely still got it, exceeded our expectations!"</p>
-                        <reviewFooter>Adam Jackson on <cite title="Instgram">Instgram</cite></reviewFooter>
-                    </blockquote>
                 </div>
             </div>
         </div>
