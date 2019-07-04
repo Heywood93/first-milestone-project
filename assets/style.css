@@ -7,11 +7,11 @@
     text-shadow: #0f0000 -3px 3px;
 }
 header {
-    color: #bcadad;
+    color: #d1bcbc;
     background-color: #0f0000;
+    text-shadow: #4c0000 -4px 4px;
 }
 nav {
-    margin-top: 50px;
     background-color: white;
     opacity: 0.8;
 }
@@ -23,9 +23,13 @@ nav {
     color: #bcadad;
     background-color: #4c0000;
 }
+.btn-info {
+    color: #bcadad;
+    background-color: #4c0000;
+}
 .btn-info:hover {
     color: white;
-    background-color: #38777c;
+    background-color: #240000;
 }
 .NavColl {
     color: #bcadad;
@@ -93,9 +97,6 @@ a:hover {
 .center {
     text-align: center;
 }
-.video {
-    margin-top: 10px;
-}
 .songs {
     background-color: #0f0000;
 }
@@ -119,10 +120,19 @@ footer a {
     background-color: white;
     opacity: 0.8;
     text-align: center;
+    padding: 5px;
+    margin: 10px;
 }
 .review {
-    margin-top: 3px;
-    margin-left: 3px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.review2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .social {
     text-decoration: none !important;

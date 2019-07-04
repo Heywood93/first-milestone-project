@@ -7,13 +7,18 @@ all over the web to increase sales and social media presence.
 
 Link to homepage: https://heywood93.github.io/first-milestone-project/index.html
 
-The website has been created on AWS Cloud9 using HTML, CSS and minimal
-Javascript with the help of the framwork provided by Bootstrap and using Github
-as a repository and to deploy the live project.
+The website has been created on Cloud9/AWS Cloud9 using HTML, CSS and minimal
+Javascript with the help of the framwork provided by Bootstrap and JQuery also
+using Github as a repository and to deploy the live project.
 
-As this was my first almost fully functoning website I believe there are a few
-problems with the initial code which the entire site has been built arround,
-with more time I would like to smooth out the problems this had created making
-the site more aesthetically pleasing. Also with further Javascript knowledge
+Unfortunately when starting this project I was not familiar with the most recent
+responsive display utility classes on Bootstrap so made the mistake of making
+the pages responsive towards the end of the project, I believe this may have
+made changing the layout more difficult. Also with further Javascript knowledge
 the functions of the website (booking events, signing up for newsletters etc.)
 would ideally be taken further.
+
+When migrating from cloud9 to aws cloud9 "git push" would not work and resulted
+the use of a new repository meaning the first 33 commits are not shown on this
+repository but can be found here:
+https://github.com/Heywood93/first-milestone-project-old
